@@ -1,0 +1,34 @@
+body{
+    background-color: rgb(180, 161, 52);
+    color: rgb(0, 0, 0);
+    font-family: "Quicksand", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    margin: 0;
+
+}
+
+button{
+    background-color: rgb(97, 83, 19);
+    color: white;
+    font-family: "Quicksand", sans-serif;
+}
+
+.passo{
+    display: none;
+}
+
+.passo.ativo{
+    display: block;
+}
+
+main{
+    text-align: center;
+    max-width: 60%;
+}
+
+img{
+    max-width:50%;
+}

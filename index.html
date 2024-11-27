@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Dancing+Script:wght@400..700&family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Quicksand:wght@300..700&family=Shadows+Into+Light&display=swap" rel="stylesheet">
+    <title>Em busca dos tesouros perdidos</title>
+</head>
+
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/cenario-passo0.jpg" alt="">
+            <p>Em uma viagem para o Egito, você escuta boatos sobre os tesouros escondidos nas catacumbas das pirâmides. Ao ouvir os boatos, você se lembra do mapa que seu avô entregou antes de viajar.</p>
+            <button class="btn-proximo" data-proximo="1">Pirâmide de Queóps</button>
+            <button class="btn-proximo" data-proximo="2">Pirâmide de Quéfren</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Na entrada da piramide, você encontra alguns sinais de perigo.</p>
+            <button class="btn-proximo" data-proximo="3">Entrar e explorar</button>
+            <button class="btn-proximo" data-proximo="4">Desisitir e voltar para casa</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>O acesso para o interior da piramide é estreito, mas mesmo assim você segue o caminho.</p>
+            <button class="btn-proximo" data-proximo="5">Grande Galeria</button>
+            <button class="btn-proximo" data-proximo="6">Câmara Subterrânea</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>Você segue o mapa e ele te indica o caminho da Câmara.</p>
+            <button class="btn-proximo" data-proximo="12">Câmara Subterrânea</button>
+        </div>
+        <div class="passo" id="passo-4">
+            <img src="img/cenario-passo4.jpg" alt="">
+            <p>Você desistiu de seguir com as buscas e segue a viagem normalmente.</p>
+        </div>
+        <div class="passo" id="passo-5">
+            <p>Você procura em toda parte, mas não encontra nada que vá te ajudar com as buscas.</p>
+            <button class="btn-proximo" data-proximo="6">Ir para Câmara Subterrânea.</button>
+        </div>
+        <div class="passo" id="passo-6">
+            <p>Na Câmara, você encontra pistas que te levam a novos caminhos.</p>
+            <button class="btn-proximo" data-proximo="7">Seguir o caminho da esquerda</button>
+            <button class="btn-proximo" data-proximo="8">Seguir o caminho da direta</button>
+        </div>
+        <div class="passo" id="passo-7">
+            <p>Você percebe algumas armadinhas desse lado e volta para trás.</p>
+            <button class="btn-proximo" data-proximo="8">Voltar para o caminho da direta</button>
+        </div>
+        <div class="passo" id="passo-8">
+            <p>Passando pelos corredores, você passa por alguns enigmas.</p>
+            <button class="btn-proximo" data-proximo="9">Resolver os enigmas</button>
+        </div>
+        <div class="passo" id="passo-9">
+            <p>Ao passar pelos enigmas, você percebe que está chegando à Câmara da Rainha. Para entrar na Câmara é necessária uma senha.</p>
+            <button class="btn-proximo" data-proximo="10">Autonomia</button>
+            <button class="btn-proximo" data-proximo="11">Manipulação</button>
+        </div>
+        <div class="passo" id="passo-10">
+            <img src="img/cenario-passo10.jpg" alt="" class="">
+            <p>A senha está correta, você consegue entrar na câmara. A sala está repleta de artefatos e riquezas.</p>
+        </div>
+        <div class="passo" id="passo-11">
+            <p>Senha incorreta, tente novamente.</p>
+            <button class="btn-proximo" data-proximo="10">Autonomia</button>
+        </div>
+        <div class="passo" id="passo-12">
+            <p>Na sala há pistas que te levam a novos lugares.</p>
+            <button class="btn-proximo" data-proximo="13">Seguir o caminho da direta</button>
+            <button class="btn-proximo" data-proximo="14">Seguir o caminho da esquerda</button>
+        </div>
+        <div class="passo" id="passo-13">
+            <p>É apenas um beco sem saída.</p>
+            <button class="btn-proximo" data-proximo="14">Seguir o caminho da esquerda</button>
+        </div>
+        <div class="passo" id="passo-14">
+            <p>Você encontrou a Câmara do Faraó. Acerta a senha para entrar na sala.</p>
+            <button class="btn-proximo" data-proximo="15">Coroa</button>
+            <button class="btn-proximo" data-proximo="16">Cetro</button>
+        </div>
+        <div class="passo" id="passo-15">
+            <img src="img/cenario-passo10.jpg" alt="" class="">
+            <p>A senha está correta, você consegue entrar na câmara. A sala está repleta de artefatos e riquezas.</p>
+        </div>
+        <div class="passo" id="passo-16">
+            <p>Senha incorreta, tente novamente.</p>
+            <button class="btn-proximo" data-proximo="15">Coroa</button>
+        
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
